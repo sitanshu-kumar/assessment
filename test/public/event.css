@@ -1,0 +1,24 @@
+ .left {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .right {
+     height: 100%;
+     width: 100%;
+ }
+ 
+ .logo {
+     width: 72px;
+     height: 51px;
+ }
+ 
+ #card1 {
+     width: 18rem;
+     margin-top: 75px;
+     margin-bottom: 75px;
+ }
+ 
+ #signin {
+     margin-top: 20px;
+ }

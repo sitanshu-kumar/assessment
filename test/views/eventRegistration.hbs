@@ -1,0 +1,132 @@
+<div class="row">
+    <div class="col">
+        <nav class="navbar navbar-dark default-color justify-content-between">
+            <a class="navbar-brand" href="/">Event On Fire</a>
+            <form class="form-inline my-1">
+
+                <button class="btn btn-outline-white btn-sm my-0" type="submit">Account Login</button>
+            </form>
+        </nav>
+    </div>
+</div>
+
+
+
+<div class="row no-gutters">
+
+    <div class="col " style="margin-top: 75px; margin-bottom:75px ;">
+        <div class=" d-flex justify-content-center align-items-center">
+            <!-- Material form register -->
+
+            <!-- Material form contact -->
+            <div class="card" style="width: 30pc;">
+
+                <h5 class="card-header default-color white-text text-center py-4">
+                    <strong>Event Registration</strong>
+                </h5>
+
+                <!--Card content-->
+                <div class="card-body px-lg-5 pt-0">
+
+                    <!-- Form -->
+                    <form action="/event_create" method="POST" class="text-center" style="color: #757575;">
+
+                        <!-- Name -->
+                        <div class="md-form mt-3">
+                            <input type="text" name="eventName" id="materialContactFormName" class="form-control">
+                            <label for="materialContactFormName"> Event Name</label>
+                        </div>
+
+                        <!-- E-mail -->
+                        <div class="md-form">
+                            <input type="text" name="category" id="materialContactFormEmail" class="form-control">
+                            <label for="materialContactFormEmail">Event Category</label>
+                        </div>
+
+                        <div class="md-form">
+                            <input type="date" name="date" id="materialContactFormDate" class="form-control">
+                            <label for="materialContactFormEmail">Event Starting Date</label>
+                        </div>
+                        <div class="md-form">
+                            <input type="text" name="place" id="materialContactFormPlace" class="form-control">
+                            <label for="materialContactFormEmail">Event Place</label>
+                        </div>
+                        <!--Message-->
+                        <div class="md-form">
+                            <textarea id="materialContactFormMessage" name="descirption"
+                                class="form-control md-textarea" rows="3"></textarea>
+                            <label for="materialContactFormMessage">Short Description of Event</label>
+                        </div>
+
+
+
+                        <!-- Send button -->
+                        <button class="btn btn-outline-dark btn-rounded btn-block z-depth-0 my-4 waves-effect"
+                            type="submit">Register</button>
+
+                    </form>
+                    <!-- Form -->
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!-- Footer -->
+<footer class="page-footer font-small black darken-3">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+        <!-- Grid row-->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12 py-5">
+                <div class="mb-5 flex-center">
+
+                    <!-- Facebook -->
+                    <a class="fb-ic">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Twitter -->
+                    <a class="tw-ic">
+                        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!-- Google +-->
+                    <a class="gplus-ic">
+                        <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a class="li-ic">
+                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a class="ins-ic">
+                        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Pinterest-->
+                    <a class="pin-ic">
+                        <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/">eventonfire.com</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
